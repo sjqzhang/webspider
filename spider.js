@@ -1,9 +1,6 @@
 var request = require('request'),
 	$ = require('jquery');
 var iconv = require('iconv-lite');
-process.on('uncaughtException', function(err) {
-	console.log('Caught exception: ' + err);
-});
 
 
 //将url后面的参数转成json

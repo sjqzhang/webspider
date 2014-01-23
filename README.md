@@ -1,6 +1,6 @@
 #### 可配置的网络爬虫
 
-	可以通过配置 spider.json 来获取json或者html对象。
+	可以通过配置 spider.json 来获取json或者html对象。 version (0.0.2) 测试版
 	
 
 #####安装方式

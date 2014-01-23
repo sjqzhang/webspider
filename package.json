@@ -1,17 +1,17 @@
 {
   "name": "webspider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "可配置的网络爬虫",
   "main": "spider.js",
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/qianshu/node-spider"
+    "url": "https://github.com/qianshu/webspider"
   },
   "author": "qianshu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qianshu/node-spider/issues"
+    "url": "https://github.com/qianshu/webspider/issues"
   },
   "dependencies": {
     "jquery": "1.8.3",
