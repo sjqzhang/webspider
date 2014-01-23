@@ -1,0 +1,25 @@
+{
+  "name": "webspider",
+  "version": "0.0.2",
+  "description": "可配置的网络爬虫",
+  "main": "spider.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qianshu/node-spider"
+  },
+  "author": "qianshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qianshu/node-spider/issues"
+  },
+  "dependencies": {
+    "jquery": "1.8.3",
+    "request": "~2.33.0",
+    "iconv-lite": "~0.2.11"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "webspider": "index.js"
+  }
+}
