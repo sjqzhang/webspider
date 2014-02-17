@@ -16,8 +16,12 @@ fs.readFile(configPath, 'UTF-8', function(err, data) {
 			request.post(config.postUrl, {
 				form: data
 			}, function(err) {
-				console.log("无法提交到指定的postUrl");
-				console.log(data);
+				if (err) {
+					console.log("无法提交到指定的postUrl");
+				} else {
+					console.log("提交成功！");
+					console.log(data);
+				}
 			});
 		} else {
 			console.log(data);
