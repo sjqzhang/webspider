@@ -124,6 +124,7 @@ spider.prototype = {
 							extendOption[pageConfig.countKey] = pageConfig.count;
 						}
 						var requestUrl = mixedURL(targetUrl, extendOption);
+                        console.log(requestUrl);
 						var obj = {
 							config: config,
 							url: requestUrl
@@ -152,6 +153,9 @@ spider.prototype = {
 					method: 'GET',
 					encoding: 'binary'
 				}, function(error, response, data) {
+                    console.log(response);
+                    console.log(error);
+                    console.log(data);
 					callBackIndex++;
 					var hasError = false;
 					try {
@@ -200,6 +204,7 @@ spider.prototype = {
 			})(requestObj.url, requestObj.config);
 
 		}
+        console.log(this);
 		return this;
 	},
 	on: function(key, fn) {
